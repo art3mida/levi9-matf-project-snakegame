@@ -48,7 +48,7 @@ function main() {
 
 const sendResult = async (username, result) => {
     try {
-        const URL = 'http://localhost:3000/ended';
+        const URL = 'http://localhost:5000/ended';
         const response = await fetch(URL, {
             method : 'POST',
             headers : {
